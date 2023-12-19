@@ -1,6 +1,6 @@
 def main():
     total = 0
-    with open('input.txt', 'r') as f:
+    with open('Day 4/input.txt', 'r') as f:
         for line in f:
             line = line.split('\n')
             line = line[0]

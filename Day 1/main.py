@@ -41,7 +41,7 @@ def find_last_digit_of_word(word: str):
     return str(last_digit)
 
 
-with open('input.txt', 'r') as file:
+with open('Day 1/input.txt', 'r') as file:
 
     for word in file:
         number = find_first_digit_of_word(word) + find_last_digit_of_word(word)

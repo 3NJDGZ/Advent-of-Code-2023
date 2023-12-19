@@ -1,4 +1,4 @@
-file = 'input.txt'
+file = 'Day 2/input.txt'
 
 def part_one():
     r, g, b = 12, 13, 14
